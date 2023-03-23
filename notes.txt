@@ -1,0 +1,4 @@
+ethereum object => since we use metamask,we can use ethereum object to crate rltn with the chain
+const {ethereum} = window
+const provider = new ethers.providers.Web3Provider(ethereum) => getting provider!
+-added web3modal library for provider and signer,first error solved
